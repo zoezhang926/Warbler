@@ -112,7 +112,7 @@ def login():
 @app.route('/logout')
 def logout():
     """Handle logout of user."""
-
+    return redirect("/")
     # IMPLEMENT THIS
 
 
